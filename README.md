@@ -19,8 +19,9 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-4) Run the server
+4) Go to Address_book folder, and Run the server
 ```
+cd Address_book
 uvicorn main:app --reload
 ```
 
